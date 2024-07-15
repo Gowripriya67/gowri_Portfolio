@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag_And_Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="box" id="colleen_box" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Colleen Hoover</h1>
+        </div>
+
+        <div id="chetan_box" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Chetan Bhagat</h1>
+        </div>
+
+        <div id="rithvik_box" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Rithvik Singh</h1>
+        </div>
+
+        <div>
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2023/4/300895448/RB/VS/NN/139116043/product-jpeg-500x500.jpg" width="160px" height="160px"
+                id="colleen_1" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/611UGN09zOL._AC_UF1000,1000_QL80_.jpg" width="160px" height="160px"
+                id="chetan_1" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/410Tjhczc3L.jpg" width="160px" height="160px"
+                id="rithvik_1" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/91868k2+gUL._AC_UF1000,1000_QL80_.jpg" width="160px" height="160px"
+                id="colleen_2" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/41xM13E3JwL.jpg" width="160px" height="160px"
+                id="chetan_2" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUXdrclUyNTTC6I95Gy_rPWofKtHnheeUNwZiWlUdHMXWOrb5eXIC7cmuJDh08ZNLS5A&usqp=CAU" width="160px" height="160px"
+                id="rithvik_2" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/71E8VNPC1dL._AC_UF1000,1000_QL80_.jpg" width="160px" height="160px"
+                id="colleen_3" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://m.media-amazon.com/images/I/51J+KYDiEYL._AC_UF1000,1000_QL80_.jpg" width="160px" height="160px"
+                id="chetan_3" class="item" draggable="true" ondragStart="drag(event)">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81FummIc2eL._AC_UL210_SR210,210_.jpg" width="160px" height="160px"
+                id="colleen_4" class="item" draggable="true" ondragStart="drag(event)">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
